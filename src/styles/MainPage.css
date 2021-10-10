@@ -1,0 +1,27 @@
+.title {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.movieList {
+    width: 100%;
+}
+
+.movieList, td  {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tbody > tr:nth-child(odd) {
+    background-color: #ddd;
+}
+
+thead {
+    height: 50px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+thead > tr > td {
+    padding: 10px;
+}

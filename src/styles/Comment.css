@@ -1,0 +1,25 @@
+.comment {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: #222;
+    margin: 10px 0;
+}
+
+.comment__body {
+    width: 90%;
+}
+
+.comment__date {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.comment__text {
+    font-size: 16px;
+    word-wrap: break-word;
+}
